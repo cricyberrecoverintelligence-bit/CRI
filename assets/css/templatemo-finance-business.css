@@ -1321,20 +1321,26 @@ footer .contact-form button.filled-button:hover {
 	.sub-header {
 		display: none;
 	}
+	.Modern-Slider .item .img-fill {
+		height: 70vh;
+	}
+	.Modern-Slider .text-content {
+		width: 88%;
+	}
 	.Modern-Slider .item h6 {
-	  margin-bottom: 15px;
-	  font-size: 18px;
+	  margin-bottom: 10px;
+	  font-size: 14px;
 	}
 	.Modern-Slider .item h4 {
-	  margin-bottom: 25px;
-	  font-size: 28px;
-	  line-height: 36px;
-	  letter-spacing: 1px;
+	  margin-bottom: 18px;
+	  font-size: 26px;
+	  line-height: 34px;
+	  letter-spacing: 0.5px;
 	}
 	.Modern-Slider .item p {
-		max-width: 570px;
-		line-height: 25px;
-		margin-bottom: 30px;
+		font-size: 13px;
+		line-height: 22px;
+		margin-bottom: 22px;
 	}
 	.Modern-Slider .NextArrow{
 	  right:5px;
@@ -1342,27 +1348,89 @@ footer .contact-form button.filled-button:hover {
 	.Modern-Slider .PrevArrow {
 	  left:5px;
 	}
+	header {
+		height: 72px;
+	}
+	.navbar .navbar-brand {
+		margin-top: 4px;
+	}
+	.navbar .navbar-brand img {
+		height: 50px;
+		max-height: 50px;
+	}
+	.navbar .navbar-brand span {
+		font-size: 14px;
+	}
+	.navbar .navbar-toggler {
+		top: 14px;
+	}
+	#navbarResponsive {
+		top: 72px;
+	}
 	.request-form {
 		text-align: center;
 	}
+	.request-form h4 {
+		font-size: 18px;
+	}
 	.request-form a.border-button {
 		float: none;
-		margin-top: 30px;
+		margin-top: 20px;
+	}
+	.services {
+		margin-top: 60px;
+	}
+	.section-heading {
+		margin-bottom: 40px;
 	}
 	.services .service-item {
 		margin-bottom: 30px;
+	}
+	.fun-facts {
+		margin-top: 60px;
+		padding: 70px 0px;
+		background-attachment: scroll;
+	}
+	.fun-facts h2 {
+		font-size: 26px;
 	}
 	.fun-facts .left-content {
 		margin-right: 0px;
 		margin-bottom: 30px;
 	}
+	.count-area-content {
+		max-width: 100% !important;
+	}
+	.more-info {
+		margin-top: 60px;
+	}
 	.more-info .right-content  {
 		padding: 30px;
 	}
+	.more-info .right-content h2 {
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+	.testimonials {
+		margin-top: 60px;
+		padding: 60px 0px;
+	}
+	.callback-form {
+		margin-top: 60px;
+	}
+	.callback-form .contact-form {
+		padding: 30px 20px;
+	}
+	.callback-form .google-form-cta h4 {
+		font-size: 22px;
+	}
 	footer {
-		padding: 80px 0px 20px 0px;
+		padding: 60px 0px 20px 0px;
 	}
 	footer .footer-item {
+		flex: 1 1 100%;
+		max-width: 100%;
+		text-align: left !important;
 		border-bottom: 1px solid #343434;
 		margin-bottom: 30px;
 		padding-bottom: 30px;
@@ -1383,6 +1451,44 @@ footer .contact-form button.filled-button:hover {
 	}
 	.contact-item {
 		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 480px) {
+	.Modern-Slider .item .img-fill {
+		height: 60vh;
+	}
+	.Modern-Slider .text-content {
+		width: 92%;
+	}
+	.Modern-Slider .item h6 {
+		font-size: 12px;
+		margin-bottom: 8px;
+	}
+	.Modern-Slider .item h4 {
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 12px;
+	}
+	.Modern-Slider .item p {
+		font-size: 12px;
+		line-height: 20px;
+		margin-bottom: 18px;
+	}
+	.section-heading h2 {
+		font-size: 24px;
+	}
+	.fun-facts h2 {
+		font-size: 22px;
+	}
+	.more-info .right-content h2 {
+		font-size: 22px;
+	}
+	.callback-form .contact-form {
+		padding: 25px 15px;
+	}
+	.callback-form .google-form-cta h4 {
+		font-size: 19px;
 	}
 }
 
